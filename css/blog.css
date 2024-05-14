@@ -405,7 +405,7 @@ a
     .header.open {
         flex-direction: column;
         display: flex;
-        height: 63vh;
+        height: 60vh;
     }
     .header.open nav
     {
@@ -414,7 +414,7 @@ a
         display: block;
         position: absolute;
         width: 100%;
-        height: 65vh;
+        height: 70vh;
         top: 12vh;
         margin-bottom: 25px;
     }
