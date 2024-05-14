@@ -289,6 +289,11 @@ a
 }
 @media (max-width:375px)
 {
+    .header.open {
+        flex-direction: column;
+        display: flex;
+        height: 60vh;
+    }
     .header.open nav
     {
         background: var(--theme-background);
@@ -296,18 +301,18 @@ a
         display: block;
         position: absolute;
         width: 100%;
-        height: 60vh;
-        top: 13vh;
+        height: 66vh;
+        top: 12vh;
         margin-bottom: 25px;
     }
     .header.open .btn {
         display: block;
         position: relative;
-        top: 62vh;
-        right: 9vh;
+        top: 59vh;
+        right: 10vh;
     }
 }
-@media (max-width:374px)
+/* @media (max-width:374px)
 {
     .header.open nav
     {
@@ -326,7 +331,7 @@ a
         top: 53vh;
         right: 8vh;
     }
-}
+} */
 :root{
 
     --theme-background-footer:#040404;
