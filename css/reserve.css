@@ -329,6 +329,11 @@ footer
 }
 @media (max-width:375px)
 {
+    .header.open {
+        flex-direction: column;
+        display: flex;
+        height: 60vh;
+    }
     .header.open nav
     {
         background: var(--theme-background);
@@ -336,7 +341,7 @@ footer
         display: block;
         position: absolute;
         width: 100%;
-        height: 60vh;
+        height: 63vh;
         top: 12vh;
         margin-bottom: 25px;
     }
