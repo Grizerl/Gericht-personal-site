@@ -297,7 +297,7 @@ a
     .header.open {
         flex-direction: column;
         display: flex;
-        height: 68vh;
+        height: 70vh;
     }
     .nav{
         display: none;
@@ -309,7 +309,7 @@ a
         display: block;
         position: absolute;
         width: 90%;
-        height: 60vh;
+        height: 55vh;
         top: 13vh;
         margin-bottom: 25px;
     }
@@ -402,6 +402,11 @@ a
 }
 @media (max-width:375px)
 {
+    .header.open {
+        flex-direction: column;
+        display: flex;
+        height: 60vh;
+    }
     .header.open nav
     {
         background: var(--theme-background);
@@ -409,40 +414,21 @@ a
         display: block;
         position: absolute;
         width: 100%;
-        height: 64vh;
-        top: 13vh;
+        height: 63vh;
+        top: 12vh;
         margin-bottom: 25px;
     }
     .header.open .btn {
         display: block;
         position: relative;
-        top: 63vh;
-        right: 9vh;
+        top: 59vh;
+        right: 10vh;
     }
     .spoon{
         margin-top: 75px;
     }
 }
-@media (max-width:374px)
-{
-    .header.open nav
-    {
-        background: var(--theme-background);
-        box-shadow: 0px 0px 10px  #ffffff;
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 57vh;
-        top: 13vh;
-        margin-bottom: 25px;
-    }
-    .header.open .btn {
-        display: block;
-        position: relative;
-        top: 53vh;
-        right: 6vh;
-    }
-}
+
 :root{
     --theme-background-btn:aliceblue;
     --theme-background:#0C0C0C;
