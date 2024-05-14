@@ -49,8 +49,7 @@ a
 .nav_list:last-child{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    position: relative;
-    left: 15vh;
+    margin-left: 25vh;
     letter-spacing: 1.5px;
     cursor: pointer;
     color: var(--theme-color-text);
@@ -304,8 +303,7 @@ a
         display: none;
     }
     .nav_list:last-child{
-        position: relative;
-        left: 0vh;
+        margin: 0px;
     }
     .header.open nav
     {
