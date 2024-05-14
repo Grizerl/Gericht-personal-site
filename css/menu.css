@@ -262,7 +262,7 @@ a
     .header.open {
         flex-direction: column;
         display: flex;
-        height: 55vh;
+        height: 68vh;
     }
     .nav{
         display: none;
@@ -274,9 +274,13 @@ a
         display: block;
         position: absolute;
         width: 90%;
-        height: 45vh;
-        top: 10.5vh;
+        height: 60vh;
+        top: 13vh;
         margin-bottom: 25px;
+    }
+    .nav_list:last-child{
+        margin: 0px;
+        
     }
     .nav_item
     {
@@ -284,7 +288,7 @@ a
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         font-size: 1.4rem;
     }
     .header.open .btn
@@ -294,9 +298,6 @@ a
         top: 48vh;
         right: 7.5vh;
         transition: color .25s;
-    }
-    .nav_list:last-child{
-       margin: 0px;
     }
     .copy{
         font-size: 18px;    

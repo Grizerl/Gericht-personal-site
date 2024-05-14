@@ -297,13 +297,10 @@ a
     .header.open {
         flex-direction: column;
         display: flex;
-        height: 55vh;
+        height: 68vh;
     }
     .nav{
         display: none;
-    }
-    .nav_list:last-child{
-        margin: 0px;
     }
     .header.open nav
     {
@@ -312,9 +309,13 @@ a
         display: block;
         position: absolute;
         width: 90%;
-        height: 50vh;
+        height: 60vh;
         top: 13vh;
         margin-bottom: 25px;
+    }
+    .nav_list:last-child{
+        margin: 0px;
+        
     }
     .nav_item
     {
@@ -329,8 +330,8 @@ a
     {
         display: block;
         position: relative;
-        top: 50vh;
-        right: 6vh;
+        top: 48vh;
+        right: 7.5vh;
         transition: color .25s;
     }
 }

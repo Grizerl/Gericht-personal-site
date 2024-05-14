@@ -251,7 +251,7 @@ footer
     .header.open {
         flex-direction: column;
         display: flex;
-        height: 55vh;
+        height: 68vh;
     }
     .nav{
         display: none;
@@ -263,12 +263,13 @@ footer
         display: block;
         position: absolute;
         width: 90%;
-        height: 50vh;
+        height: 60vh;
         top: 13vh;
         margin-bottom: 25px;
     }
     .nav_list:last-child{
         margin: 0px;
+        
     }
     .nav_item
     {
