@@ -297,7 +297,7 @@ a
     .header.open {
         flex-direction: column;
         display: flex;
-        height: 70vh;
+        height: 68vh;
     }
     .nav{
         display: none;
@@ -309,7 +309,7 @@ a
         display: block;
         position: absolute;
         width: 90%;
-        height: 55vh;
+        height: 60vh;
         top: 13vh;
         margin-bottom: 25px;
     }
@@ -414,7 +414,7 @@ a
         display: block;
         position: absolute;
         width: 100%;
-        height: 70vh;
+        height: 67vh;
         top: 12vh;
         margin-bottom: 25px;
     }
