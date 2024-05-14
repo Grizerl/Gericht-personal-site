@@ -634,7 +634,6 @@ form
     .header.open {
         flex-direction: column;
         display: flex;
-        position: relative;
         height: 60vh;
     }
     .nav{
@@ -853,29 +852,28 @@ form {
 
 @media (max-width:375px)
 {
+    .header.open {
+        flex-direction: column;
+        display: flex;
+        height: 65vh;
+    }
     .header.open nav
     {
         background: var(--theme-background);
         box-shadow: 0px 0px 10px  #ffffff;
-        /* display: block;
-        position: absolute; */
+        display: block;
+        position: absolute;
         width: 100%;
-        height: 63vh;
+        height: 65vh;
         top: 12vh;
         margin-bottom: 25px;
     }
-    .nav{
-        position: relative;
-    }
-    .nav-list{
-        position: absolute;
-    }
-    /* .header.open .btn {
+    .header.open .btn {
         display: block;
         position: relative;
         top: 59vh;
         right: 10vh;
-    } */
+    }
     .footer-header{
         margin-top: 28vh;
     }
