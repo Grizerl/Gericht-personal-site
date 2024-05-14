@@ -294,7 +294,7 @@ a
 .section-customer
 {
     margin-top: 45px;
-    height: 90vh;
+    /* height: 209vh; */
 }
 .section-customer-title
 {
@@ -363,6 +363,7 @@ a
 .section-media-content{
     position: relative; 
     left: 30vh;
+   
 }
 .section-media-subtitle
 {
@@ -717,9 +718,9 @@ form
 .img {
     height: 45vh;
 }
-.section-customer {
+/* .section-customer {
     height: 209vh;
-}
+} */
 .section-customer-people {
     position: relative;
     left: 12vh;
@@ -876,9 +877,9 @@ form {
     .footer-header{
         margin-top: 28vh;
     }
-    .section-people{
+    /* .section-people{
         height: 275vh;
-    }
+    } */
 }
 
 :root{
