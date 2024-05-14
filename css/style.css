@@ -1,7 +1,7 @@
 body
 {
     margin: 0px;
-    height: 540vh;
+    height: 514vh;
     background:var( --theme-background);
 }
 li
@@ -294,7 +294,7 @@ a
 .section-customer
 {
     margin-top: 45px;
-    /* height: 209vh; */
+    /* height: 80vh; */
 }
 .section-customer-title
 {
@@ -320,7 +320,8 @@ a
     position: relative;
     left: 10vh;
     top: 6vh;
-    width: 80%;  
+    width: 80%; 
+    margin-bottom: 18vh;
 }
 .title
 {
@@ -718,9 +719,7 @@ form
 .img {
     height: 45vh;
 }
-/* .section-customer {
-    height: 209vh;
-} */
+
 .section-customer-people {
     position: relative;
     left: 12vh;
@@ -732,6 +731,7 @@ form
     left: 10vh;
     top: 6vh;
     width: 80%;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
 }
