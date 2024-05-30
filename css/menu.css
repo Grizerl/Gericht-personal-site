@@ -176,6 +176,11 @@ a
     letter-spacing: 0.04em;
     color: var(--theme-color-p);
 }
+.section-nav-logo-conteiner
+{
+    text-align: center;
+    margin-left: 9vh;
+}
 .section-nav-logo
 {
     font-family: Cormorant Upright;
@@ -313,6 +318,10 @@ a
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .section-nav-logo-conteiner
+    {
+        margin-left: 0vh;
     }
     .img-shaker{
     width: 40%;

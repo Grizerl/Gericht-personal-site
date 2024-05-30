@@ -453,6 +453,7 @@ a
     align-items: center;
     justify-content: center;
     margin-top: 25vh;
+    margin-left: 5vh;
 }
 .section-form
 {
@@ -548,6 +549,11 @@ form
     line-height: 28px;
     letter-spacing: 0.04em;
     color: var(--theme-color-p);
+}
+.section-nav-logo-conteiner
+{
+    text-align: center;
+    margin-left: 9vh;
 }
 .section-nav-logo
 {
@@ -697,6 +703,10 @@ form
 }
 .img {
     height: 50vh;
+}
+.section-nav-logo-conteiner
+{
+    margin-left: 0vh;
 }
 .img-people {
     width: 13%;
