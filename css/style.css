@@ -857,7 +857,13 @@ form {
 {
     .img-people {
     width: 37%;
-}
+    }
+    form {
+        width: 100%;
+    }
+    .section-form-header {
+        margin-left: 0vh;
+    }
 }
 
 @media (max-width:375px)
@@ -886,6 +892,12 @@ form {
     }
     .footer-header{
         margin-top: 28vh;
+    }
+    form {
+        width: 100%;
+    }
+    .section-form-header {
+        margin-left: 0vh;
     }
 }
 

@@ -409,6 +409,13 @@ a
     .img-chef {
         width: 70%;
     }
+    .footer-header {
+        margin-left: 0px;
+    }
+    .aside-header 
+    {
+        margin-left: 7vh;
+    }
 }
 @media (max-width:375px)
 {
@@ -436,6 +443,13 @@ a
     }
     .spoon{
         margin-top: 75px;
+    }
+    .footer-header {
+        margin-left: 0px;
+    }
+    .aside-header 
+    {
+        margin-left: 7vh;
     }
 }
 
