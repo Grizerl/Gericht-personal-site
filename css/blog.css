@@ -315,7 +315,7 @@ a
         display: block;
         position: absolute;
         width: 90%;
-        height: 60vh;
+        /* height: 60vh; */
         top: 13vh;
         margin-bottom: 25px;
     }
@@ -431,7 +431,7 @@ a
         display: block;
         position: absolute;
         width: 100%;
-        height: 68vh;
+        /* height: 68vh; */
         top: 12vh;
         margin-bottom: 25px;
     }
