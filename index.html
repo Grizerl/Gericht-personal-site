@@ -120,7 +120,7 @@
          <div class="section-customer">
             <div data-aos="fade-up" class="section-customer-title">
                <h2 class="title">Задоволені клієнти</h2>
-               <div><span class="section-subtitle">Наші клієнти залишаються задоволеними завдяки високій якості обслуговування та професіоналізму</span></div>
+               <div style="text-align: center;"><span class="section-subtitle">Наші клієнти залишаються задоволеними завдяки високій якості обслуговування та професіоналізму</span></div>
             </div>
             <!-- Swiper -->
             <div class="swiper mySwiper">
@@ -267,16 +267,30 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
          const swiper = new Swiper('.mySwiper', {
-             slidesPerView: 4,
-             spaceBetween: 30, 
+             spaceBetween: 30,
              loop: true,
-          autoplay: {
-              delay: 3000, 
-              disableOnInteraction: false,
-          },
-          speed: 800, 
-             });
-      </script>
+             breakpoints: {
+               1700:{
+                  slidesPerView: 4,
+               },
+                 1200: {
+                     slidesPerView: 3, // Show 3 slides when the screen width is <= 1200px
+                 },
+                 992: {
+                     slidesPerView: 2, // Show 2 slides when the screen width is <= 992px
+                 },
+                 768: {
+                     slidesPerView: 1, // Show 1 slide when the screen width is <= 768px
+                 },
+             },
+             autoplay:
+            {
+               delay: 3000, 
+               disableOnInteraction: false,
+            },
+               speed: 800, 
+         });
+     </script>
       <script>
          AOS.init();
        </script>

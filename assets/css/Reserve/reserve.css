@@ -355,15 +355,8 @@ footer
         flex-direction: column;
     }
     .form-pole {
-        margin-right: 25px;
+        
         margin-top: 25px;
-       
-    }
-}
-@media (max-width:456px)
-{
-    .form-pole {
-        margin-left: 25px;
        
     }
 }

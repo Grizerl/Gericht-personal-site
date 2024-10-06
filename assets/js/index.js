@@ -3,9 +3,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const burger = document.getElementById("burger");
     const content = document.getElementById("header");
 
-    aboutUsButton.addEventListener('click', function (e) {
-        window.location.href = './index.html#About_us';  
-    });
+    if (aboutUsButton) {
+        aboutUsButton.addEventListener('click', function (e) {
+            window.location.href = './index.html#About_us';  
+        });
+    }
 
     window.addEventListener('load', function () {
         if (window.location.hash) {
@@ -20,7 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    burger.addEventListener("click", () => {
-        content.classList.toggle("open");
-    });
+    if (burger && content) { // Check if elements exist
+        burger.addEventListener("click", () => {
+            content.classList.toggle("open");
+        });
+    }
 });

@@ -360,7 +360,7 @@ li,a
 }
 
 .review-content {
-    height: 33vh;
+    box-sizing: border-box;
     border: 1px solid var(--theme-color-title);
     padding: 15px;
     border-radius: 10px;
@@ -368,6 +368,7 @@ li,a
 
 .reviews {
     text-align: center;
+    word-break: break-all;
     font-size: 1.05rem;
     color: #333;
     line-height: 1.6;
@@ -727,6 +728,7 @@ form
     position: relative; 
     left: 12vh;
 }
+
 .aside-content {
     margin-left: 10vh; 
 }
@@ -887,6 +889,10 @@ form {
 }
 @media (max-width:560px)
 {
+    .people-name
+    {
+        padding: 0px;
+    }
     .img-people {
     width: 37%;
     }
