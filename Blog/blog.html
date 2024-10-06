@@ -12,43 +12,45 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
       <!-- Custom CSS -->
-      <link rel="stylesheet" href="../css/blog.css">
+      <link rel="stylesheet" href="../assets/css/Blog/blog.css">
       <!-- Website icon -->
-      <link rel="website icon" type="png" href="../logo/logo.png">
-      <title>Блог Ресторан Gerícht</title>
+      <link rel="website icon" type="png" href="../img/LogoBrend/WebSiteLogo.png">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <title>Gerícht Culinary Masterpiece for Gourmets</title>
    </head>
    <body id="body">
       <header>
          <!-- Header Section -->
-      <div class="header"  id="header">
-         <div class="header-content">
-            <h2 class="logo">Gerícht</h2>
-            <nav class="nav">
-               <li class="nav_list">
-                  <a class="nav_item" href="../index.html">Home</a>
-               </li>
-               <li  class="nav_list">
-                  <a class="nav_item" href="../index.html#About_us">About us</a>
-               </li>
-               <li  class="nav_list"> 
-                  <a class="nav_item"  href="../Menu/menu.html">Menu</a>
-               </li>
-               <li  class="nav_list">
-                  <a class="nav_item" href="../Contacts/contact.html">Contacts</a>
-               </li>
-               <li  class="nav_list">
-                  <a class="nav_item" href="./blog.html">Blogs</a>
-               </li>
-               <li class="nav_list">
-                  <a href="../Reserve/reserve.html" class="nav_item">Reserve/Table</a>
-               </li>
-            </nav>
-            <!-- Burger Menu Button -->
-            <button class="header-burger-btn" id="burger">
+         <div class="header"  id="header">
+            <div class="header-content">
+               <h2 class="logo">Gerícht</h2>
+               <nav class="nav">
+                  <li class="nav_list">
+                     <a class="nav_item" href="../index.html">Home</a>
+                  </li>
+                  <li  class="nav_list">
+                     <a class="nav_item" href="../index.html#About_us">About us</a>
+                  </li>
+                  <li  class="nav_list"> 
+                     <a class="nav_item"  href="../Menu/menu.html">Menu</a>
+                  </li>
+                  <li  class="nav_list">
+                     <a class="nav_item" href="../Contacts/contact.html">Contacts</a>
+                  </li>
+                  <li  class="nav_list">
+                     <a class="nav_item" href="./blog.html">Blogs</a>
+                  </li>
+                  <li class="nav_list">
+                     <a href="../Reserve/reserve.html" class="nav_item">Reserve/Table</a>
+                  </li>
+               </nav>
+               <!-- Burger Menu Button -->
+               <button class="header-burger-btn" id="burger">
                <span></span><span></span><span></span>
-            </button>
+               </button>
+            </div>
          </div>
-      </div>
       </header>
       <!-- Aside section for blog tips -->
       <aside>
@@ -63,24 +65,24 @@
                </div>
                <!-- Blog posts -->
                <div class="aside-header">
-                  <div>
+                  <div data-aos="zoom-in">
                      <!-- Blog post 2 -->
-                     <img class="image" src="./img/mean1.png" alt="Фото оновленої страви">
+                     <img class="image" src="./img/PhotoDishTips.png" alt="Photo of the updated dish">
                      <div>
                         <p class="aside-p">Поради щодо догляду гриля</p>
                      </div>
                      <p class="aside-advice">Перед використанням гриля обов'язково <br> переконайтеся, що він чистий.Видаліть<br> залишки жиру та їжі з решітки.</p>
                   </div>
-                  <div>
-                      <!-- Blog post 3 -->
-                     <img class="image" src="./img/mean2.png" alt="Фото оновленої страви">
+                  <div data-aos="zoom-in">
+                     <!-- Blog post 3 -->
+                     <img class="image" src="./img/PhotoDishTipsSecond.png" alt="Photo of the updated dish">
                      <div>
                         <p class="aside-p">Літні коктейлі та моктейлі</p>
                      </div>
                      <p class="aside-advice">Літній період ідеальний час для споживання<br> освіжаючих, ароматних напоїв, які допомагають<br> зберегти організм та відчувати себе комфортно.</p>
                   </div>
-                  <div>
-                     <img class="image" src="./img/mean3.png" alt="Фото оновленої страви">
+                  <div data-aos="zoom-in">
+                     <img class="image" src="./img/PhotoDishTipsThird.png" alt="Photo of the updated dish">
                      <div>
                         <p class="aside-p">Легка кулінарія для людей</p>
                      </div>
@@ -90,13 +92,13 @@
             </div>
          </div>
       </aside>
-       <!-- Section for featuring the new chef -->
+      <!-- Section for featuring the new chef -->
       <div>
          <div class="footer-header-title">
             <h1>Our new Chef</h1>
          </div>
          <div class="footer-header">
-            <img class="img-chef"  src="./img/povar.jpg" alt="Фото кухаря">
+            <img data-aos="flip-left" class="img-chef"  src="./img/Chef'sPhoto.jpg" alt="Photo of the cook">
             <div>
                <span class="footer-subtitle">Слово кухаря</span>
                <div><i style="transform: rotate(45deg); color:#DCCA87; margin-top: 15px; font-size: 1.2rem;" class="fa-solid fa-spoon"></i></div>
@@ -109,38 +111,41 @@
       </div>
       <footer>
          <!-- Footer section -->
-   <div class="section-nav">
-      <div style="text-align: center;">
-         <h4 class="section-nav-contact">Зв'яжіться з нами</h4>
-         <a href="tel: +380 95 066 25 06" class="section-contact-telephone">+380 95 066 25 06</a>
-         <div>
-            <a href="tel: +380 64 730 54 56" class="section-contact-telephone">+380 64 730 54 56</a>
+         <div class="section-nav">
+            <div style="text-align: center;">
+               <h4 class="section-nav-contact">Зв'яжіться з нами</h4>
+               <a href="tel: +380 95 066 25 06" class="section-contact-telephone">+380 95 066 25 06</a>
+               <div>
+                  <a href="tel: +380 64 730 54 56" class="section-contact-telephone">+380 64 730 54 56</a>
+               </div>
+            </div>
+            <div class="section-nav-logo-conteiner">
+               <h2 class="section-nav-logo">Gerícht</h2>
+               <span class="section-nav-span">Смак, який завойовує серця: Дегустаційні шедеври<br> нашого ресторану!</span>
+               <div><i style="color:#DCCA87; transform: rotate(45deg); margin-top: 25px; margin-bottom: 25px; font-size: 20px;" class="fa-solid fa-spoon"></i></div>
+               <div>
+                  <a href="https://uk-ua.facebook.com/people/Dima-Dima/pfbid02G17Zm4K5YiPVBn5q9pJJvQEi5HKEpDafL2tKsY5gjEm6y6278JkWR1MGuDuu44Akl/"><i  id="icon" class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/dliumstak/"><i id="icon" class="fa-brands fa-instagram"></i></a>
+                  <a href="https://x.com/home"><i id="icon" class="fa-brands fa-twitter"></i></a>
+               </div>
+            </div>
+            <div style="text-align: center;">
+               <h2 class="section-nav-hour">Робочі години</h2>
+               <span class="section-nav-work">Monday-Friday:
+               08:00 am -12:00 am</span>
+               <div>
+                  <span class="section-nav-work"> Saturday-Sunday:
+                  07:00am -11:00 pm</span>
+               </div>
+            </div>
          </div>
-      </div>
-      <div class="section-nav-logo-conteiner">
-         <h2 class="section-nav-logo">Gerícht</h2>
-         <span class="section-nav-span">Смак, який завойовує серця: Дегустаційні шедеври<br> нашого ресторану!</span>
-         <div><i style="color:#DCCA87; transform: rotate(45deg); margin-top: 25px; margin-bottom: 25px; font-size: 20px;" class="fa-solid fa-spoon"></i></div>
-         <div>
-            <a href="https://uk-ua.facebook.com/people/Dima-Dima/pfbid02G17Zm4K5YiPVBn5q9pJJvQEi5HKEpDafL2tKsY5gjEm6y6278JkWR1MGuDuu44Akl/"><i  id="icon" class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/dliumstak/"><i id="icon" class="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com/home"><i id="icon" class="fa-brands fa-twitter"></i></a>
-         </div>
-      </div>
-      <div style="text-align: center;">
-         <h2 class="section-nav-hour">Робочі години</h2>
-         <span class="section-nav-work">Monday-Friday:
-         08:00 am -12:00 am</span>
-         <div>
-            <span class="section-nav-work"> Saturday-Sunday:
-            07:00am -11:00 pm</span>
-         </div>
-      </div>
-   </div>
-</footer>
-   <!-- Font Awesome icons script -->
-   <script src="https://kit.fontawesome.com/238ef1c826.js" crossorigin="anonymous"></script>
-   <!-- Link to custom JavaScript file -->
-   <script src="../js/script.js"></script>
+      </footer>
+      <!-- Font Awesome icons script -->
+      <script src="https://kit.fontawesome.com/238ef1c826.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="../assets/js/index.js"></script>
+      <script>
+         AOS.init();
+       </script>
    </body>
 </html>

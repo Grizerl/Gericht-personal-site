@@ -1,17 +1,23 @@
+:root{
+
+    --theme-background-footer:#040404;
+    --theme-background-btn:aliceblue;
+    --theme-background:#0C0C0C;
+    --theme-color-p:#AAAAAA;
+    --theme-color-text:#ffffff;
+    --theme-instagram-color:#fff;
+    --theme-color-title:#DCCA87;
+    --theme-color-nav: #F5EFDB;
+}
 body
 {
     margin: 0px;
-    height: 160vh;
     background:var( --theme-background);
 }
-li
-{
-    list-style-type: none;
-}
-a
+li,a
 {
     text-decoration: none;
-   
+    list-style-type: none;
 }
 .header-content
 {
@@ -387,17 +393,4 @@ a
         top: 59vh;
         right: 10vh;
     }
-}
-:root{
-
-    --theme-background-footer:#040404;
-    --theme-background-btn:aliceblue;
-    --theme-background:#0C0C0C;
-    --theme-color-p:#AAAAAA;
-    --theme-color-text:#ffffff;
-    --theme-instagram-color:#fff;
-    --theme-color-title:#DCCA87;
-    --theme-color-nav: #F5EFDB;
-
-
 }
